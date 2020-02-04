@@ -86,7 +86,12 @@ git push origin master
 ## 群规
 
 * 每天20：00过后在群里面布置明天的题号
-
 * 不许私自删除被人提交的代码（在历史记录可以追查的喔）。发现必踢
 * 可以补交之前没有完成的题目
 * 群暂时限定20人
+
+## 视频讲解
+
+* [leetcode368](https://www.bilibili.com/video/av86351318/)
+* [leetcode39](https://www.bilibili.com/video/av86616360/)
+* 
