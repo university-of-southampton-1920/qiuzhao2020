@@ -92,6 +92,6 @@ git push origin master
 
 ## 视频讲解
 
-* [leetcode368](https://www.bilibili.com/video/av86351318/)
-* [leetcode39](https://www.bilibili.com/video/av86616360/)
+* [leetcode368(biss)](https://www.bilibili.com/video/av86351318/)
+* [leetcode39(biss)](https://www.bilibili.com/video/av86616360/)
 * 
