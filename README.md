@@ -15,12 +15,12 @@
 ```python
 # 在24号晚上过了20：00后开始运行脚本
 if 小黑22号没有刷 & 23号没有刷 & 24号20点过后仍然没有刷过22，23，24号的任何一道题：
-	小黑被T&发红包
+	小黑被T || 发红包
 else:
   小黑侥幸活过来
 ```
 
-T人&发红包的脚本你可以在github仓库中：[https://github.com/university-of-southampton-1920/qiuzhao2020/blob/master/judge.py](https://github.com/university-of-southampton-1920/qiuzhao2020/blob/master/judge.py)。找到
+T人 || 发红包的脚本你可以在github仓库中：[https://github.com/university-of-southampton-1920/qiuzhao2020/blob/master/judge.py](https://github.com/university-of-southampton-1920/qiuzhao2020/blob/master/judge.py)。找到
 
 **发红包规则**
 
