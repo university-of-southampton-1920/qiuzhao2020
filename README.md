@@ -6,21 +6,25 @@
 
 微信号添加：hjyyizi。然后我会拉你进群
 
-## T人规则
+## T人规则&发红包规则
 
-连续三天不打卡（从执行代码那一刻开始），T人。准确来说是第三天过20：00之后，仍然没有完成三天前的任何一道题。
+连续三天不打卡（从执行代码那一刻开始），T人&发红包。准确来说是第三天过20：00之后，仍然没有完成三天前的任何一道题。
 
 举个例子：
 
 ```python
 # 在24号晚上过了20：00后开始运行脚本
 if 小黑22号没有刷 & 23号没有刷 & 24号20点过后仍然没有刷过22，23，24号的任何一道题：
-	小黑被T
+	小黑被T&发红包
 else:
   小黑侥幸活过来
 ```
 
-T人的脚本你可以在github仓库中：[https://github.com/university-of-southampton-1920/qiuzhao2020/blob/master/judge.py](https://github.com/university-of-southampton-1920/qiuzhao2020/blob/master/judge.py)。找到
+T人&发红包的脚本你可以在github仓库中：[https://github.com/university-of-southampton-1920/qiuzhao2020/blob/master/judge.py](https://github.com/university-of-southampton-1920/qiuzhao2020/blob/master/judge.py)。找到
+
+**发红包规则**
+
+红包金额 = 群里面的人数*2。红包的类型是普通红包，不能是拼手气红包。
 
 每天20：00过后，服务器运行`judge.py`脚本，该脚本拉取github上的代码，并统计每个人的提交情况。
 
