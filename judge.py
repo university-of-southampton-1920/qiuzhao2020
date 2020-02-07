@@ -2,7 +2,7 @@ import os
 from datetime import date, timedelta
 from collections import Counter
 
-leetcode_id = ["biss", "xueyao-yuan", "runorz", "SauryStand", "Lewislou"]
+leetcode_id = ["biss", "xueyao-yuan", "runorz", "saurystand", "lewislou"]
 
 name_dict = Counter()
 
@@ -14,7 +14,7 @@ for i in range(days_to_subtract + 1):
     before_day_dir = str(before_day).replace("-", "_")
     try:
         for file in os.listdir(before_day_dir):
-            name = file.split("_")[0]
+            name = file.split("_")[0].lower()
             name_dict[name] += 1
         print("####log####")
         print("date: ", before_day)
