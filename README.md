@@ -103,4 +103,7 @@ git push origin master
 * [leetcode1319(biss)](https://www.bilibili.com/video/av87240025/)
 * [leetcode377(biss)](https://www.bilibili.com/video/av87240049/)
 * [leetcode1286(biss)](https://www.bilibili.com/video/av87459206/)
+* [leetcode1345(biss)](https://www.bilibili.com/video/av87699671/)
+
+
 
