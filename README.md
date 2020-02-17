@@ -104,10 +104,10 @@ git push origin master
 * [leetcode377(biss)](https://www.bilibili.com/video/av87240049/)
 * [leetcode1286(biss)](https://www.bilibili.com/video/av87459206/)
 * [leetcode1345(biss)](https://www.bilibili.com/video/av87699671/)
-
 * [leetcode1267(biss)](https://www.bilibili.com/video/av88125905)
 * [leetcode910(biss)](https://www.bilibili.com/video/av88125889)
-
 * [leetcode959(biss)](https://www.bilibili.com/video/av88965869/)
 * [leetcode765(biss)](https://www.bilibili.com/video/av89198166/)
-* 
+* [leetcode130(biss)](https://www.bilibili.com/video/av89555280/)
+* [leetcode128(biss)](https://www.bilibili.com/video/av89559140/)
+* [leetcode947(biss)](https://www.bilibili.com/video/av89559185/)
