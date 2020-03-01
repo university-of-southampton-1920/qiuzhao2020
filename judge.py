@@ -2,7 +2,7 @@ import os
 from datetime import date, timedelta
 from collections import Counter
 
-leetcode_id = ["biss", "xueyao-yuan", "runorz", "saurystand", "lewislou"]
+leetcode_id = ["biss", "runorz", "saurystand", "lewislou", "byroncbr"]
 
 name_dict = Counter()
 
