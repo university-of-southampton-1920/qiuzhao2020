@@ -1,6 +1,5 @@
-/**
-Copy from https://leetcode.com/problems/split-array-with-same-average/discuss/120842/DP-with-bitset-over-*sum*-(fast-PythonRuby-decent-C%2B%2B)
-**/
+
+#Copy from https://leetcode.com/problems/split-array-with-same-average/discuss/120842/DP-with-bitset-over-*sum*-(fast-PythonRuby-decent-C%2B%2B)
 
 def splitArraySameAverage(self, A):
     N, S, P = len(A), sum(A), [1]
