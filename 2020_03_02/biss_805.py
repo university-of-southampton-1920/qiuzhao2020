@@ -1,27 +1,20 @@
 class Solution:  # donot finish because of the 0 element corners case
     def splitArraySameAverage(self, A: List[int]) -> bool:
-        all_sum = sum(A)
-        L = len(A)
-        dp = [[0 for i in range(all_sum+1)] for j in range(len(A)) ]
-        # initialization
-        dp[0][A[0]] = 1
-        
-        # cal dp
-        for i in range(1, len(A)):
-            for v in range(1, all_sum+1):
-                if v - A[i] >= 0:
-                    dp[i][v] = dp[i-1][v-A[i]]+1 if dp[i-1][v-A[i]] > 0 or v-A[i] == 0 else dp[i-1][v]
-                    if dp[i][v] == len(A) or dp[i][v] == 0:
-                        continue  # avoid dividing by 0 
-                    up_avg = v / dp[i][v]
-                    down_avg = (all_sum - v) / (L - dp[i][v] )
-                    if up_avg == down_avg:
-                        for k in dp:
-                            print(k)
-                        print(up_avg)
-                        print(down_avg)
-                        return True
-        for k in dp:
-            print(k)
+        total = sum(A)
+        if total == 0:
+            if len(A) % 2 == 0: return True
+            else: return False
+        dp = [0 for j in range(total+1)]
+        dp[0] = 1
+        cur_s = 0
+        for a in A:
+            cur_s += a
+            for s in range(cur_s, a-1, -1):
+                # total * num == s * len(A)
+                dp[s] |= (dp[s - a] << 1)
+                if (s * len(A)) % total == 0:
+                    num = int(s * len(A) / total)
+                    # print(s, len(A), total,num,  dp)
+                    if num != 0 and num != len(A) and  ((dp[s] >> num) & 1): return True   
+        # print(dp)
         return False
-        
