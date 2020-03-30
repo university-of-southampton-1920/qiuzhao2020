@@ -9,7 +9,6 @@ class Solution {
         }
 
         // the first column is 0 by default in every other rows but the first, which we need.
-
         for(int i=0; i<t.length(); i++) {
             for(int j=0; j<s.length(); j++) {
                 if(t.charAt(i) == s.charAt(j)) {
