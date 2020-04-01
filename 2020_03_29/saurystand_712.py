@@ -2,7 +2,7 @@ class Solution:
     def minimumDeleteSum(self, s1: str, s2: str) -> int:
         m = len(s1)
         n = len(s2)
-        dp = [[0 for i in range(n+1)] for j in range(m+1)]
+        dp = [[0 for i in range(n+1)] for j in range(m+1)] # m*n
         for i in range(m):
             for j in range(n):
                 if s1[i] == s2[j]:
